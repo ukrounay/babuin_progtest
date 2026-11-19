@@ -33,7 +33,11 @@ h2 {
         "WONK" 0;
 }
 body {
-    background-image: linear-gradient(to bottom, #ffc000 0%, #c08000 100%);
+    background-image: url('https://raw.githubusercontent.com/ukrounay/babuin_progtest/refs/heads/main/herbert2512-baboons-4410987_1920(1).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
     font-size: 16px;
 }
 
@@ -41,7 +45,8 @@ body {
     padding: 1rem;
     border: none;
     border-radius: 8px;
-    background-color: #f1f1f180;
+    background-color: #ffffff57;
+    backdrop-filter: blur(3px) brightness(2) contrast(0.3);
     color: #1f1f1f;
     box-shadow: none;
 }
